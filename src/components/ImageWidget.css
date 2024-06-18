@@ -1,0 +1,13 @@
+.image-widget {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+  }
+  
+  .image-widget img {
+    max-width: 100%;
+    max-height: 100%;
+  }
