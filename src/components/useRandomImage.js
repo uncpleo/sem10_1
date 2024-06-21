@@ -2,11 +2,12 @@
 import { useState, useEffect } from 'react';
 
 const images = [
-  'https://via.placeholder.com/150/0000FF',
-  'https://via.placeholder.com/150/FF0000',
-  'https://via.placeholder.com/150/00FF00',
-  'https://via.placeholder.com/150/FFFF00',
-  'https://via.placeholder.com/150/FF00FF',
+  './assets/sa_1.png',
+  './assets/sa_2.png',
+  './assets/sa_3.png',
+  './assets/sa_4.png',
+  './assets/sa_5.png',
+  './assets/sa_6.png',
 ];
 
 function getRandomImage() {
