@@ -4,7 +4,7 @@ import useRandomImage from './useRandomImage';
 import './ImageWidget.css';
 
 function ImageWidget() {
-  const image = useRandomImage(3000); // Cambia la imagen cada 30000 ms (30 segundos)
+  const image = useRandomImage(3000);
 
   return (
     <div className="image-widget">
